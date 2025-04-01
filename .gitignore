@@ -1,0 +1,14 @@
+# React / Frontend
+frontend/node_modules
+frontend/build
+
+# Java / Backend
+backend/target
+
+# IDEs & Editor Settings
+.idea
+.vscode
+
+# macOS
+.DS_Store
+

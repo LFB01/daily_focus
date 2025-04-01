@@ -1,0 +1,30 @@
+.task-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .task-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  .task-card.done {
+    background-color: #f8f9fa;
+    color: #6c757d;
+  }
+  .nav-link {
+    max-width: 120px; 
+    white-space: normal;
+    text-align: center;
+    line-height: 1.2;
+    word-wrap: break-word;
+  }
+  .nav-box {
+    max-width: 130px;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  
+  
