@@ -13,7 +13,7 @@ services:
     ports:
       - "3307:3306"
     volumes:
-      - db-data:/var/lib/mysql
+      - mysql_data:/var/lib/mysql
 
   backend:
     build: .
@@ -28,5 +28,4 @@ services:
       - "8080:8080"
 
 volumes:
-  db-data:
-
+  mysql_data:
