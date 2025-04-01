@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
+import API_URL from "../config/api";
 
 function TaskForm() {
 
@@ -24,7 +25,7 @@ function TaskForm() {
     done: false, 
   };
 
-  fetch("http://localhost:8080/task", {
+  fetch(`${API_URL}/task`, {
     method: "POST", 
     headers: {
       "Content-type": "application/json", 

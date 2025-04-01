@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from "./Navbar";
+import API_URL from "../config/api";
 
 function TaskWeekView(){
 
@@ -31,7 +32,7 @@ function formatDateWithWeekday(dateStr) {
         const week = getWeekDays();
 
         const fetches = week.map(date=>
-            fetch(`http://localhost:8080/task/all/date?dueDate=${date}`, {
+            fetch(`${API_URL}/task/all/date?dueDate=${date}`, {
                 headers: {secret}
             })
             .then(response => 

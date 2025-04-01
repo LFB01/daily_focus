@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import TaskCard from "./TaskCard.js";
+import API_URL from "../config/api";
 
 
 function TaskListDate({filter, selectedDate}){
@@ -13,7 +14,7 @@ function TaskListDate({filter, selectedDate}){
     function updateStatus(id){
         console.log("ID zum Löschen:", id); 
 
-        fetch(`http://localhost:8080/task?id=${id}`, {
+        fetch(`${API_URL}/task?id=${id}`, {
             method: "PATCH",
             headers:{
                 "secret": secret
@@ -43,7 +44,7 @@ function TaskListDate({filter, selectedDate}){
 
     function deleteTask(id){
 
-        fetch(`http://localhost:8080/task?id=${id}`, {
+        fetch(`${API_URL}/task?id=${id}`, {
             method: "DELETE", 
             headers: {
                 "Content-type": "application/json",
@@ -64,7 +65,7 @@ function TaskListDate({filter, selectedDate}){
     }
 
     useEffect(() => {
-    fetch(`http://localhost:8080/task/all/date?dueDate=${selectedDate}`,{
+    fetch(`${API_URL}/task/all/date?dueDate=${selectedDate}`,{
         method:"GET",
         headers: {
             "Content-type": "application/json", 

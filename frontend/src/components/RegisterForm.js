@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
+import API_URL from "../config/api";
 
 function RegisterForm(){
     const navigate = useNavigate();
@@ -16,7 +17,7 @@ function RegisterForm(){
             password: password
         };
 
-        fetch("http://localhost:8080/user/register", {
+        fetch(`${API_URL}/user/register`, {
             method: "POST",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(user)

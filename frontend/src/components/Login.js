@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import RegisterForm from './RegisterForm';
 import { Link } from "react-router-dom";
+import API_URL from "../config/api";
 
 function Login(){
 
@@ -32,7 +33,7 @@ function Login(){
     
 
 
-    fetch("http://localhost:8080/user/login", {
+    fetch(`${API_URL}/user/login`, {
         method: "POST", 
         headers: {"Content-type": "application/json" },
         body: JSON.stringify(user)
