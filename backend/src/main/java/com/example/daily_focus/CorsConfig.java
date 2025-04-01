@@ -14,7 +14,10 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://daily-focus.vercel.app")
+                        .allowedOrigins(
+                                "http://localhost:3000",                      // lokal
+                                "https://daily-focus.vercel.app"             // live
+                        )
                         .allowedMethods("*")
                         .allowedHeaders("*")
                         .allowCredentials(true);
