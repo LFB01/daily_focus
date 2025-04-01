@@ -16,7 +16,7 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:3000",                      // lokal
-                                "https://daily-focus.vercel.app"             // live
+                                "https://daily-focus-g0309ijo9-lfs-projects-71ef66d5.vercel.app"             // live
                         )
                         .allowedMethods("*")
                         .allowedHeaders("*")
