@@ -12,3 +12,6 @@ backend/target
 # macOS
 .DS_Store
 
+#environment 
+.env
+
