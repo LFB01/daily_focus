@@ -5,8 +5,9 @@ import API_URL from "../config/api";
 
 function TaskForm() {
 
-
-  console.log("🔐 Secret:", localStorage.getItem("secret"));
+  const secret = localStorage.getItem("secret");
+  console.log("🔐 Secret:", secret);
+  
   const navigate = useNavigate();
   const [taskName, setTaskName] = useState('');
   const [furtherDesc, setFurtherDesc] = useState('');
