@@ -31,9 +31,9 @@ function RegisterForm(){
         })
         .then (data =>{
             console.log("Registrierung: ", data); 
-            localStorage.setItem("userSecret", data.secret)
-            navigate("/tasks");
-            alert("Registrierung erfolgreich!")
+            alert("Registrierung erfolgreich! Bitte loggen Sie sich nun ein.");
+            navigate("/login");
+
         })
         .catch(error => {
             console.error("Fehler:", error);
