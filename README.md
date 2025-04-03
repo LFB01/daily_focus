@@ -144,6 +144,7 @@ npm start
 ## Geplante Features
 
 - weitere User APIs: Password ändern und Account löschen 
+- Nutzung der Task-API PUT zur Bearbeitung einer Aufgabe
 - Statistiken zur Aufgaben-Erledigung (z. B. Wochenübersicht)
 - Multi-User-Support zur gemeinschaftlichen Bearbeitung von Aufgaben
 
