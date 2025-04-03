@@ -6,7 +6,7 @@
 
 Eine Webanwendung zur Verwaltung täglicher Fokus-Aufgaben mit React im Frontend und Spring Boot im Backend.
 
-## 🚀 Live-Demo
+## Live-Demo
 
 - Frontend (React, Vercel) und Backend (Spring Boot, Railway): 
 [Live-Demo auf Vercel](https://daily-focus-two.vercel.app)
@@ -20,7 +20,7 @@ Eine Webanwendung zur Verwaltung täglicher Fokus-Aufgaben mit React im Frontend
 **Hinweis**
 > Dieses Projekt wurde im Rahmen meiner persönlichen Weiterentwicklung erstellt, um Fähigkeiten in Full-Stack-Entwicklung mit Java Spring Boot und React zu üben und zu festigen. Es ist nicht für die produktive Nutzung gedacht, sondern zeigt mein technisches Verständnis, Clean Code-Prinzipien und strukturierte API-Entwicklung.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Login & Registrierung
 ![Login Screenshot](/assets/screenshot-login.png)
@@ -172,6 +172,6 @@ Pull Requests sind willkommen – bitte nutze Issues für Vorschläge oder Bugre
 
 MIT License © 2025 [LFB01]
 
-[SEE LICENSE IN LICENSE.md](./LICENSE.md)
+[SEE LICENSE IN LICENSE.md](./LICENSE)
 
 
