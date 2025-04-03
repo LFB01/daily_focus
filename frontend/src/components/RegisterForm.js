@@ -37,7 +37,7 @@ function RegisterForm(){
         })
         .catch(error => {
             console.error("Fehler:", error);
-            alert("Fehler bei der Registrierung.");
+            alert("Fehler bei der Registrierung. Eventuell ist Ihr eingegebener Username bereits vergeben. Versuchen Sie bitte einen anderen.");
           });
     }
 
