@@ -1,21 +1,24 @@
 # Daily Focus _(daily-focus)_
 
+_Eine minimalistische Web-App zur täglichen Aufgabenfokussierung – Fullstack mit React & Spring Boot._
+
 [![Frontend: Vercel](https://img.shields.io/badge/frontend-vercel-blue)](https://vercel.com)
 [![Backend: Railway](https://img.shields.io/badge/backend-railway-green)](https://railway.app)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow)](./LICENSE.md)
 
-Eine Webanwendung zur Verwaltung täglicher Fokus-Aufgaben mit React im Frontend und Spring Boot im Backend.
+**Daily Focus** ist eine Webanwendung zur Verwaltung und Visualisierung von Tagesaufgaben.  
+Sie wurde von mir entwickelt, um meine Kenntnisse in der **Fullstack-Entwicklung mit Java (Spring Boot)** und **React** praxisnah zu vertiefen.
+
+> 🔧 Das Backend ist aktuell **nicht aktiv** (aus Kostengründen) – der Fokus liegt auf Codequalität, Struktur und UI/UX.
 
 ## Live-Demo
 
-- Frontend (React, Vercel) und Backend (Spring Boot, Railway): 
-[Live-Demo auf Vercel](https://daily-focus-two.vercel.app)
+Frontend erreichbar unter:  
+👉 [https://daily-focus-two.vercel.app](https://daily-focus-two.vercel.app)
 
-
-**ACHTUNG**
-- Beachten Sie bitte, dass ich in der SQL-Datenbank Zugriff auf Ihre Eintragungen (inkl. Passwort) habe, verwenden Sie die App bitte nur mit nicht sensiblen Daten!
-- Wenn Sie keinen eigenen User-Account anlegen möchten, verwenden Sie einfach: **username: dummy** und **password: test**
-
+**Wichtiger Hinweis**  
+Das Backend ist aktuell nicht aktiv gehostet, daher sind Login und Datenänderungen in der Live-Demo nicht funktionsfähig. 
+Die Screenshots unten zeigen exemplarisch die Funktionalitäten.
 
 **Hinweis**
 > Dieses Projekt wurde im Rahmen meiner persönlichen Weiterentwicklung erstellt, um Fähigkeiten in Full-Stack-Entwicklung mit Java Spring Boot und React zu üben und zu festigen. Es ist nicht für die produktive Nutzung gedacht, sondern zeigt mein technisches Verständnis, Clean Code-Prinzipien und strukturierte API-Entwicklung.
