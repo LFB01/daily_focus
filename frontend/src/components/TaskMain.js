@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 import TaskListDate from "./TaskListDate";
 import Navbar from "./Navbar";
+import API_URL from "../config/api";
 
 function TaskMain(){
     const [filter, setFilter] = useState("offen");
